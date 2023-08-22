@@ -92,7 +92,7 @@ class ColorDot extends StatelessWidget {
       padding: const EdgeInsets.all(3.0),
       height: 24,
       width: 24,
-      decoration: BoxDecoration(
+       decoration: BoxDecoration(
         shape: BoxShape.circle,
         border: Border.all(
             color: isSeleclted ? kTextLightColor : Colors.transparent),
